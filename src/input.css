@@ -5,106 +5,433 @@
 /* Buttons */
 
 .vk-btn {
-  @apply text-gray-900 border  focus:outline-none  focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5   disabled:cursor-not-allowed disabled:opacity-50;
+  @apply text-gray-900 border  focus:outline-none  focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5   disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer;
 }
 
 .vk-btn-light {
-  @apply text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5  dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700 disabled:cursor-not-allowed disabled:opacity-50;
+  @apply text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5  dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700 disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer;
 }
 
 .vk-btn-dark {
-  @apply text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5  dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700 disabled:cursor-not-allowed disabled:opacity-50;
+  @apply text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5  dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700 disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer;
 }
 
 .vk-btn-blue {
-  @apply text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 disabled:cursor-not-allowed disabled:opacity-50;
+  @apply text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer;
 }
 
 .vk-btn-red {
-  @apply focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900 disabled:cursor-not-allowed disabled:opacity-50;
+  @apply focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900 disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer;
 }
 .vk-btn-green {
-  @apply focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800 disabled:cursor-not-allowed disabled:opacity-50;
+  @apply focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800 disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer;
 }
 .vk-btn-yellow {
-  @apply focus:outline-none text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5  dark:focus:ring-yellow-900 disabled:cursor-not-allowed disabled:opacity-50;
+  @apply focus:outline-none text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5  dark:focus:ring-yellow-900 disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer;
 }
 .vk-btn-purple {
-  @apply focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5  dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900 disabled:cursor-not-allowed disabled:opacity-50;
+  @apply focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5  dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900 disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer;
 }
 .vk-btn-pink {
-  @apply focus:outline-none text-white bg-pink-700 hover:bg-pink-800 focus:ring-4 focus:ring-pink-300 font-medium rounded-lg text-sm px-5 py-2.5  dark:bg-pink-600 dark:hover:bg-pink-700 dark:focus:ring-pink-900 disabled:cursor-not-allowed disabled:opacity-50;
+  @apply focus:outline-none text-white bg-pink-700 hover:bg-pink-800 focus:ring-4 focus:ring-pink-300 font-medium rounded-lg text-sm px-5 py-2.5  dark:bg-pink-600 dark:hover:bg-pink-700 dark:focus:ring-pink-900 disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer;
 }
 .vk-btn-cyan {
-  @apply focus:outline-none text-white bg-cyan-700 hover:bg-cyan-800 focus:ring-4 focus:ring-cyan-300 font-medium rounded-lg text-sm px-5 py-2.5  dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-900 disabled:cursor-not-allowed disabled:opacity-50;
+  @apply focus:outline-none text-white bg-cyan-700 hover:bg-cyan-800 focus:ring-4 focus:ring-cyan-300 font-medium rounded-lg text-sm px-5 py-2.5  dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-900 disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer;
 }
 .vk-btn-teal {
-  @apply focus:outline-none text-white bg-teal-700 hover:bg-teal-800 focus:ring-4 focus:ring-teal-300 font-medium rounded-lg text-sm px-5 py-2.5  dark:bg-teal-600 dark:hover:bg-teal-700 dark:focus:ring-teal-900 disabled:cursor-not-allowed disabled:opacity-50;
+  @apply focus:outline-none text-white bg-teal-700 hover:bg-teal-800 focus:ring-4 focus:ring-teal-300 font-medium rounded-lg text-sm px-5 py-2.5  dark:bg-teal-600 dark:hover:bg-teal-700 dark:focus:ring-teal-900 disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer;
 }
 .vk-btn-lime {
-  @apply focus:outline-none text-white bg-lime-500 hover:bg-lime-700 focus:ring-4 focus:ring-lime-300 font-medium rounded-lg text-sm px-5 py-2.5  dark:bg-lime-500 dark:hover:bg-lime-700 dark:focus:ring-lime-900 disabled:cursor-not-allowed disabled:opacity-50;
+  @apply focus:outline-none text-white bg-lime-500 hover:bg-lime-700 focus:ring-4 focus:ring-lime-300 font-medium rounded-lg text-sm px-5 py-2.5  dark:bg-lime-500 dark:hover:bg-lime-700 dark:focus:ring-lime-900 disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer;
 }
 
 .vk-btn-outline-dark {
-  @apply text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800 disabled:cursor-not-allowed disabled:opacity-50;
+  @apply text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800 disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer;
 }
 
 .vk-btn-outline-blue {
-  @apply disabled:cursor-not-allowed disabled:opacity-50 text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800;
+  @apply disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800;
 }
 .vk-btn-outline-red {
-  @apply disabled:cursor-not-allowed disabled:opacity-50 text-red-700 hover:text-white border border-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center  dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900;
+  @apply disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer text-red-700 hover:text-white border border-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center  dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900;
 }
 .vk-btn-outline-green {
-  @apply disabled:cursor-not-allowed disabled:opacity-50 text-green-700 hover:text-white border border-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center  dark:border-green-500 dark:text-green-500 dark:hover:text-white dark:hover:bg-green-600 dark:focus:ring-green-800;
+  @apply disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer text-green-700 hover:text-white border border-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center  dark:border-green-500 dark:text-green-500 dark:hover:text-white dark:hover:bg-green-600 dark:focus:ring-green-800;
 }
 .vk-btn-outline-yellow {
-  @apply disabled:cursor-not-allowed disabled:opacity-50 text-yellow-400 hover:text-white border border-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:border-yellow-300 dark:text-yellow-300 dark:hover:text-white dark:hover:bg-yellow-400 dark:focus:ring-yellow-900;
+  @apply disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer text-yellow-400 hover:text-white border border-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:border-yellow-300 dark:text-yellow-300 dark:hover:text-white dark:hover:bg-yellow-400 dark:focus:ring-yellow-900;
 }
 .vk-btn-outline-cyan {
-  @apply disabled:cursor-not-allowed disabled:opacity-50 text-cyan-700 hover:text-white border border-cyan-700 hover:bg-cyan-800 focus:ring-4 focus:outline-none focus:ring-cyan-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center  dark:border-cyan-400 dark:text-cyan-400 dark:hover:text-white dark:hover:bg-cyan-500 dark:focus:ring-cyan-900;
+  @apply disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer text-cyan-700 hover:text-white border border-cyan-700 hover:bg-cyan-800 focus:ring-4 focus:outline-none focus:ring-cyan-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center  dark:border-cyan-400 dark:text-cyan-400 dark:hover:text-white dark:hover:bg-cyan-500 dark:focus:ring-cyan-900;
 }
 .vk-btn-outline-teal {
-  @apply disabled:cursor-not-allowed disabled:opacity-50  text-teal-700 hover:text-white border border-teal-700 hover:bg-teal-800 focus:ring-4 focus:outline-none focus:ring-teal-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center  dark:border-teal-400 dark:text-teal-400 dark:hover:text-white dark:hover:bg-teal-500 dark:focus:ring-teal-900;
+  @apply disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer  text-teal-700 hover:text-white border border-teal-700 hover:bg-teal-800 focus:ring-4 focus:outline-none focus:ring-teal-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center  dark:border-teal-400 dark:text-teal-400 dark:hover:text-white dark:hover:bg-teal-500 dark:focus:ring-teal-900;
 }
 .vk-btn-outline-lime {
-  @apply disabled:cursor-not-allowed disabled:opacity-50  text-lime-500 hover:text-white border border-lime-500 hover:bg-lime-600 focus:ring-4 focus:outline-none focus:ring-lime-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center  dark:border-lime-400 dark:text-lime-400 dark:hover:text-white dark:hover:bg-lime-500 dark:focus:ring-lime-900;
+  @apply disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer  text-lime-500 hover:text-white border border-lime-500 hover:bg-lime-600 focus:ring-4 focus:outline-none focus:ring-lime-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center  dark:border-lime-400 dark:text-lime-400 dark:hover:text-white dark:hover:bg-lime-500 dark:focus:ring-lime-900;
 }
 .vk-btn-outline-pink {
-  @apply disabled:cursor-not-allowed disabled:opacity-50  text-pink-700 hover:text-white border border-pink-700 hover:bg-pink-800 focus:ring-4 focus:outline-none focus:ring-pink-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center  dark:border-pink-400 dark:text-pink-400 dark:hover:text-white dark:hover:bg-pink-500 dark:focus:ring-pink-900;
+  @apply disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer  text-pink-700 hover:text-white border border-pink-700 hover:bg-pink-800 focus:ring-4 focus:outline-none focus:ring-pink-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center  dark:border-pink-400 dark:text-pink-400 dark:hover:text-white dark:hover:bg-pink-500 dark:focus:ring-pink-900;
 }
 .vk-btn-outline-purple {
-  @apply disabled:cursor-not-allowed disabled:opacity-50 text-purple-700 hover:text-white border border-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center  dark:border-purple-400 dark:text-purple-400 dark:hover:text-white dark:hover:bg-purple-500 dark:focus:ring-purple-900;
+  @apply disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer text-purple-700 hover:text-white border border-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center  dark:border-purple-400 dark:text-purple-400 dark:hover:text-white dark:hover:bg-purple-500 dark:focus:ring-purple-900;
 }
 
 .vk-btn-blue-g {
-  @apply disabled:cursor-not-allowed disabled:opacity-50 text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center;
+  @apply disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center;
 }
 .vk-btn-red-g {
-  @apply disabled:cursor-not-allowed disabled:opacity-50 text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center;
+  @apply disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center;
 }
 .vk-btn-yellow-g {
-  @apply disabled:cursor-not-allowed disabled:opacity-50 text-white bg-gradient-to-r from-yellow-500 via-yellow-600 to-yellow-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-yellow-300 dark:focus:ring-yellow-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center;
+  @apply disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer text-white bg-gradient-to-r from-yellow-500 via-yellow-600 to-yellow-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-yellow-300 dark:focus:ring-yellow-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center;
 }
 .vk-btn-green-g {
-  @apply disabled:cursor-not-allowed disabled:opacity-50 text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center;
+  @apply disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center;
 }
 .vk-btn-cyan-g {
-  @apply disabled:cursor-not-allowed disabled:opacity-50 text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center;
+  @apply disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center;
 }
 .vk-btn-lime-g {
-  @apply disabled:cursor-not-allowed disabled:opacity-50 text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center;
+  @apply disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center;
 }
 .vk-btn-teal-g {
-  @apply disabled:cursor-not-allowed disabled:opacity-50 text-white bg-gradient-to-r from-teal-400 via-teal-500 to-teal-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-teal-300 dark:focus:ring-teal-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center;
+  @apply disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer text-white bg-gradient-to-r from-teal-400 via-teal-500 to-teal-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-teal-300 dark:focus:ring-teal-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center;
 }
 .vk-btn-pink-g {
-  @apply disabled:cursor-not-allowed disabled:opacity-50 text-white bg-gradient-to-r from-pink-400 via-pink-500 to-pink-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-pink-300 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center;
+  @apply disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer text-white bg-gradient-to-r from-pink-400 via-pink-500 to-pink-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-pink-300 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center;
 }
 .vk-btn-purple-g {
-  @apply disabled:cursor-not-allowed disabled:opacity-50 text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center;
+  @apply disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center;
 }
 
 .vk-btn-dark-g {
-  @apply disabled:cursor-not-allowed disabled:opacity-50 text-white bg-gradient-to-r from-gray-500 via-gray-600 to-gray-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-gray-300 dark:focus:ring-gray-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center;
+  @apply disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer text-white bg-gradient-to-r from-gray-500 via-gray-600 to-gray-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-gray-300 dark:focus:ring-gray-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center;
+}
+
+/*Rounded Buttons */
+
+.vk-btn-r {
+  @apply text-gray-900 border  focus:outline-none  focus:ring-4 focus:ring-gray-100 font-medium  text-sm px-5 py-2.5   disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer rounded-full;
+}
+
+.vk-btn-light-r {
+  @apply text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium  text-sm px-5 py-2.5  dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700 disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer rounded-full;
+}
+
+.vk-btn-dark-r {
+  @apply text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium  text-sm px-5 py-2.5  dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700 disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer rounded-full;
+}
+
+.vk-btn-blue-r {
+  @apply text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium  text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer rounded-full;
+}
+
+.vk-btn-red-r {
+  @apply focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium  text-sm px-5 py-2.5 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900 disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer rounded-full;
+}
+.vk-btn-green-r {
+  @apply focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium  text-sm px-5 py-2.5 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800 disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer rounded-full;
+}
+.vk-btn-yellow-r {
+  @apply focus:outline-none text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium  text-sm px-5 py-2.5  dark:focus:ring-yellow-900 disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer rounded-full;
+}
+.vk-btn-purple-r {
+  @apply focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium  text-sm px-5 py-2.5  dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900 disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer rounded-full;
+}
+.vk-btn-pink-r {
+  @apply focus:outline-none text-white bg-pink-700 hover:bg-pink-800 focus:ring-4 focus:ring-pink-300 font-medium  text-sm px-5 py-2.5  dark:bg-pink-600 dark:hover:bg-pink-700 dark:focus:ring-pink-900 disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer rounded-full;
+}
+.vk-btn-cyan-r {
+  @apply focus:outline-none text-white bg-cyan-700 hover:bg-cyan-800 focus:ring-4 focus:ring-cyan-300 font-medium  text-sm px-5 py-2.5  dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-900 disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer rounded-full;
+}
+.vk-btn-teal-r {
+  @apply focus:outline-none text-white bg-teal-700 hover:bg-teal-800 focus:ring-4 focus:ring-teal-300 font-medium  text-sm px-5 py-2.5  dark:bg-teal-600 dark:hover:bg-teal-700 dark:focus:ring-teal-900 disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer rounded-full;
+}
+.vk-btn-lime-r {
+  @apply focus:outline-none text-white bg-lime-500 hover:bg-lime-700 focus:ring-4 focus:ring-lime-300 font-medium  text-sm px-5 py-2.5  dark:bg-lime-500 dark:hover:bg-lime-700 dark:focus:ring-lime-900 disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer rounded-full;
+}
+
+.vk-btn-outline-dark-r {
+  @apply text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium  text-sm px-5 py-2.5 text-center dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800 disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer rounded-full;
+}
+
+.vk-btn-outline-blue-r {
+  @apply disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer rounded-full text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium  text-sm px-5 py-2.5 text-center dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800;
+}
+.vk-btn-outline-red-r {
+  @apply disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer rounded-full text-red-700 hover:text-white border border-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium  text-sm px-5 py-2.5 text-center  dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900;
+}
+.vk-btn-outline-green-r {
+  @apply disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer rounded-full text-green-700 hover:text-white border border-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium  text-sm px-5 py-2.5 text-center  dark:border-green-500 dark:text-green-500 dark:hover:text-white dark:hover:bg-green-600 dark:focus:ring-green-800;
+}
+.vk-btn-outline-yellow-r {
+  @apply disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer rounded-full text-yellow-400 hover:text-white border border-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium  text-sm px-5 py-2.5 text-center dark:border-yellow-300 dark:text-yellow-300 dark:hover:text-white dark:hover:bg-yellow-400 dark:focus:ring-yellow-900;
+}
+.vk-btn-outline-cyan-r {
+  @apply disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer rounded-full text-cyan-700 hover:text-white border border-cyan-700 hover:bg-cyan-800 focus:ring-4 focus:outline-none focus:ring-cyan-300 font-medium  text-sm px-5 py-2.5 text-center  dark:border-cyan-400 dark:text-cyan-400 dark:hover:text-white dark:hover:bg-cyan-500 dark:focus:ring-cyan-900;
+}
+.vk-btn-outline-teal-r {
+  @apply disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer rounded-full  text-teal-700 hover:text-white border border-teal-700 hover:bg-teal-800 focus:ring-4 focus:outline-none focus:ring-teal-300 font-medium  text-sm px-5 py-2.5 text-center  dark:border-teal-400 dark:text-teal-400 dark:hover:text-white dark:hover:bg-teal-500 dark:focus:ring-teal-900;
+}
+.vk-btn-outline-lime-r {
+  @apply disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer rounded-full  text-lime-500 hover:text-white border border-lime-500 hover:bg-lime-600 focus:ring-4 focus:outline-none focus:ring-lime-300 font-medium  text-sm px-5 py-2.5 text-center  dark:border-lime-400 dark:text-lime-400 dark:hover:text-white dark:hover:bg-lime-500 dark:focus:ring-lime-900;
+}
+.vk-btn-outline-pink-r {
+  @apply disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer rounded-full  text-pink-700 hover:text-white border border-pink-700 hover:bg-pink-800 focus:ring-4 focus:outline-none focus:ring-pink-300 font-medium  text-sm px-5 py-2.5 text-center  dark:border-pink-400 dark:text-pink-400 dark:hover:text-white dark:hover:bg-pink-500 dark:focus:ring-pink-900;
+}
+.vk-btn-outline-purple-r {
+  @apply disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer rounded-full text-purple-700 hover:text-white border border-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium  text-sm px-5 py-2.5 text-center  dark:border-purple-400 dark:text-purple-400 dark:hover:text-white dark:hover:bg-purple-500 dark:focus:ring-purple-900;
+}
+
+.vk-btn-blue-g-r {
+  @apply disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer rounded-full text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium  text-sm px-5 py-2.5 text-center;
+}
+.vk-btn-red-g-r {
+  @apply disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer rounded-full text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium  text-sm px-5 py-2.5 text-center;
+}
+.vk-btn-yellow-g-r {
+  @apply disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer rounded-full text-white bg-gradient-to-r from-yellow-500 via-yellow-600 to-yellow-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-yellow-300 dark:focus:ring-yellow-800 font-medium  text-sm px-5 py-2.5 text-center;
+}
+.vk-btn-green-g-r {
+  @apply disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer rounded-full text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium  text-sm px-5 py-2.5 text-center;
+}
+.vk-btn-cyan-g-r {
+  @apply disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer rounded-full text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium  text-sm px-5 py-2.5 text-center;
+}
+.vk-btn-lime-g-r {
+  @apply disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer rounded-full text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-medium  text-sm px-5 py-2.5 text-center;
+}
+.vk-btn-teal-g-r {
+  @apply disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer rounded-full text-white bg-gradient-to-r from-teal-400 via-teal-500 to-teal-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-teal-300 dark:focus:ring-teal-800 font-medium  text-sm px-5 py-2.5 text-center;
+}
+.vk-btn-pink-g-r {
+  @apply disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer rounded-full text-white bg-gradient-to-r from-pink-400 via-pink-500 to-pink-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-pink-300 dark:focus:ring-pink-800 font-medium  text-sm px-5 py-2.5 text-center;
+}
+.vk-btn-purple-g-r {
+  @apply disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer rounded-full text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium  text-sm px-5 py-2.5 text-center;
+}
+
+.vk-btn-dark-g-r {
+  @apply disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer rounded-full text-white bg-gradient-to-r from-gray-500 via-gray-600 to-gray-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-gray-300 dark:focus:ring-gray-800 font-medium  text-sm px-5 py-2.5 text-center;
+}
+
+/* Badges */
+
+.vk-badge-blue {
+  @apply bg-blue-700 text-blue-300 text-xs font-medium  px-2.5 py-0.5 rounded dark:bg-blue-700 dark:text-blue-300;
+}
+
+.vk-badge-red {
+  @apply bg-red-700 text-red-300 text-xs font-medium  px-2.5 py-0.5 rounded dark:bg-red-700 dark:text-red-300;
+}
+
+.vk-badge-green {
+  @apply bg-green-700 text-green-300 text-xs font-medium  px-2.5 py-0.5 rounded dark:bg-green-700 dark:text-green-300;
+}
+
+.vk-badge-yellow {
+  @apply bg-yellow-700 text-yellow-300 text-xs font-medium  px-2.5 py-0.5 rounded dark:bg-yellow-700 dark:text-yellow-300;
+}
+
+.vk-badge-cyan {
+  @apply bg-cyan-700 text-cyan-300 text-xs font-medium  px-2.5 py-0.5 rounded dark:bg-cyan-700 dark:text-cyan-300;
+}
+
+.vk-badge-teal {
+  @apply bg-teal-700 text-teal-300 text-xs font-medium  px-2.5 py-0.5 rounded dark:bg-teal-700 dark:text-teal-300;
+}
+
+.vk-badge-pink {
+  @apply bg-pink-700 text-pink-300 text-xs font-medium  px-2.5 py-0.5 rounded dark:bg-pink-700 dark:text-pink-300;
+}
+
+.vk-badge-purple {
+  @apply bg-purple-700 text-purple-300 text-xs font-medium  px-2.5 py-0.5 rounded dark:bg-purple-700 dark:text-purple-300;
+}
+
+.vk-badge-lime {
+  @apply bg-lime-700 text-lime-300 text-xs font-medium  px-2.5 py-0.5 rounded dark:bg-lime-700 dark:text-lime-300;
+}
+
+.vk-badge-blue-md {
+  @apply bg-blue-700 text-blue-300 text-sm font-medium  px-2.5 py-0.5 rounded dark:bg-blue-700 dark:text-blue-300;
+}
+
+.vk-badge-red-md {
+  @apply bg-red-700 text-red-300 text-sm font-medium  px-2.5 py-0.5 rounded dark:bg-red-700 dark:text-red-300;
+}
+
+.vk-badge-green-md {
+  @apply bg-green-700 text-green-300 text-sm font-medium  px-2.5 py-0.5 rounded dark:bg-green-700 dark:text-green-300;
+}
+
+.vk-badge-yellow-md {
+  @apply bg-yellow-700 text-yellow-300 text-sm font-medium  px-2.5 py-0.5 rounded dark:bg-yellow-700 dark:text-yellow-300;
+}
+
+.vk-badge-cyan-md {
+  @apply bg-cyan-700 text-cyan-300 text-sm font-medium  px-2.5 py-0.5 rounded dark:bg-cyan-700 dark:text-cyan-300;
+}
+
+.vk-badge-teal-md {
+  @apply bg-teal-700 text-teal-300 text-sm font-medium  px-2.5 py-0.5 rounded dark:bg-teal-700 dark:text-teal-300;
+}
+
+.vk-badge-pink-md {
+  @apply bg-pink-700 text-pink-300 text-sm font-medium  px-2.5 py-0.5 rounded dark:bg-pink-700 dark:text-pink-300;
+}
+
+.vk-badge-purple-md {
+  @apply bg-purple-700 text-purple-300 text-sm font-medium  px-2.5 py-0.5 rounded dark:bg-purple-700 dark:text-purple-300;
+}
+
+.vk-badge-lime-md {
+  @apply bg-lime-700 text-lime-300 text-sm font-medium  px-2.5 py-0.5 rounded dark:bg-lime-700 dark:text-lime-300;
+}
+
+.vk-badge-blue-lg {
+  @apply bg-blue-700 text-blue-300 text-lg font-medium  px-2.5 py-0.5 rounded dark:bg-blue-700 dark:text-blue-300;
+}
+
+.vk-badge-red-lg {
+  @apply bg-red-700 text-red-300 text-lg font-medium  px-2.5 py-0.5 rounded dark:bg-red-700 dark:text-red-300;
+}
+
+.vk-badge-green-lg {
+  @apply bg-green-700 text-green-300 text-lg font-medium  px-2.5 py-0.5 rounded dark:bg-green-700 dark:text-green-300;
+}
+
+.vk-badge-yellow-lg {
+  @apply bg-yellow-700 text-yellow-300 text-lg font-medium  px-2.5 py-0.5 rounded dark:bg-yellow-700 dark:text-yellow-300;
+}
+
+.vk-badge-cyan-lg {
+  @apply bg-cyan-700 text-cyan-300 text-lg font-medium  px-2.5 py-0.5 rounded dark:bg-cyan-700 dark:text-cyan-300;
+}
+
+.vk-badge-teal-lg {
+  @apply bg-teal-700 text-teal-300 text-lg font-medium  px-2.5 py-0.5 rounded dark:bg-teal-700 dark:text-teal-300;
+}
+
+.vk-badge-pink-lg {
+  @apply bg-pink-700 text-pink-300 text-lg font-medium  px-2.5 py-0.5 rounded dark:bg-pink-700 dark:text-pink-300;
+}
+
+.vk-badge-purple-lg {
+  @apply bg-purple-700 text-purple-300 text-lg font-medium  px-2.5 py-0.5 rounded dark:bg-purple-700 dark:text-purple-300;
+}
+
+.vk-badge-lime-lg {
+  @apply bg-lime-700 text-lime-300 text-lg font-medium  px-2.5 py-0.5 rounded dark:bg-lime-700 dark:text-lime-300;
+}
+
+/* Rounded Badges */
+
+.vk-badge-blue-r {
+  @apply bg-blue-700 text-blue-300 text-xs font-medium  px-2.5 py-0.5 rounded-full dark:bg-blue-700 dark:text-blue-300;
+}
+
+.vk-badge-red-r {
+  @apply bg-red-700 text-red-300 text-xs font-medium  px-2.5 py-0.5 rounded-full dark:bg-red-700 dark:text-red-300;
+}
+
+.vk-badge-green-r {
+  @apply bg-green-700 text-green-300 text-xs font-medium  px-2.5 py-0.5 rounded-full dark:bg-green-700 dark:text-green-300;
+}
+
+.vk-badge-yellow-r {
+  @apply bg-yellow-700 text-yellow-300 text-xs font-medium  px-2.5 py-0.5 rounded-full dark:bg-yellow-700 dark:text-yellow-300;
+}
+
+.vk-badge-cyan-r {
+  @apply bg-cyan-700 text-cyan-300 text-xs font-medium  px-2.5 py-0.5 rounded-full dark:bg-cyan-700 dark:text-cyan-300;
+}
+
+.vk-badge-teal-r {
+  @apply bg-teal-700 text-teal-300 text-xs font-medium  px-2.5 py-0.5 rounded-full dark:bg-teal-700 dark:text-teal-300;
+}
+
+.vk-badge-pink-r {
+  @apply bg-pink-700 text-pink-300 text-xs font-medium  px-2.5 py-0.5 rounded-full dark:bg-pink-700 dark:text-pink-300;
+}
+
+.vk-badge-purple-r {
+  @apply bg-purple-700 text-purple-300 text-xs font-medium  px-2.5 py-0.5 rounded-full dark:bg-purple-700 dark:text-purple-300;
+}
+
+.vk-badge-lime-r {
+  @apply bg-lime-700 text-lime-300 text-xs font-medium  px-2.5 py-0.5 rounded-full dark:bg-lime-700 dark:text-lime-300;
+}
+
+.vk-badge-blue-md-r {
+  @apply bg-blue-700 text-blue-300 text-sm font-medium  px-2.5 py-0.5 rounded-full dark:bg-blue-700 dark:text-blue-300;
+}
+
+.vk-badge-red-md-r {
+  @apply bg-red-700 text-red-300 text-sm font-medium  px-2.5 py-0.5 rounded-full dark:bg-red-700 dark:text-red-300;
+}
+
+.vk-badge-green-md-r {
+  @apply bg-green-700 text-green-300 text-sm font-medium  px-2.5 py-0.5 rounded-full dark:bg-green-700 dark:text-green-300;
+}
+
+.vk-badge-yellow-md-r {
+  @apply bg-yellow-700 text-yellow-300 text-sm font-medium  px-2.5 py-0.5 rounded-full dark:bg-yellow-700 dark:text-yellow-300;
+}
+
+.vk-badge-cyan-md-r {
+  @apply bg-cyan-700 text-cyan-300 text-sm font-medium  px-2.5 py-0.5 rounded-full dark:bg-cyan-700 dark:text-cyan-300;
+}
+
+.vk-badge-teal-md-r {
+  @apply bg-teal-700 text-teal-300 text-sm font-medium  px-2.5 py-0.5 rounded-full dark:bg-teal-700 dark:text-teal-300;
+}
+
+.vk-badge-pink-md-r {
+  @apply bg-pink-700 text-pink-300 text-sm font-medium  px-2.5 py-0.5 rounded-full dark:bg-pink-700 dark:text-pink-300;
+}
+
+.vk-badge-purple-md-r {
+  @apply bg-purple-700 text-purple-300 text-sm font-medium  px-2.5 py-0.5 rounded-full dark:bg-purple-700 dark:text-purple-300;
+}
+
+.vk-badge-lime-md-r {
+  @apply bg-lime-700 text-lime-300 text-sm font-medium  px-2.5 py-0.5 rounded-full dark:bg-lime-700 dark:text-lime-300;
+}
+
+.vk-badge-blue-lg-r {
+  @apply bg-blue-700 text-blue-300 text-lg font-medium  px-2.5 py-0.5 rounded-full dark:bg-blue-700 dark:text-blue-300;
+}
+
+.vk-badge-red-lg-r {
+  @apply bg-red-700 text-red-300 text-lg font-medium  px-2.5 py-0.5 rounded-full dark:bg-red-700 dark:text-red-300;
+}
+
+.vk-badge-green-lg-r {
+  @apply bg-green-700 text-green-300 text-lg font-medium  px-2.5 py-0.5 rounded-full dark:bg-green-700 dark:text-green-300;
+}
+
+.vk-badge-yellow-lg-r {
+  @apply bg-yellow-700 text-yellow-300 text-lg font-medium  px-2.5 py-0.5 rounded-full dark:bg-yellow-700 dark:text-yellow-300;
+}
+
+.vk-badge-cyan-lg-r {
+  @apply bg-cyan-700 text-cyan-300 text-lg font-medium  px-2.5 py-0.5 rounded-full dark:bg-cyan-700 dark:text-cyan-300;
+}
+
+.vk-badge-teal-lg-r {
+  @apply bg-teal-700 text-teal-300 text-lg font-medium  px-2.5 py-0.5 rounded-full dark:bg-teal-700 dark:text-teal-300;
+}
+
+.vk-badge-pink-lg-r {
+  @apply bg-pink-700 text-pink-300 text-lg font-medium  px-2.5 py-0.5 rounded-full dark:bg-pink-700 dark:text-pink-300;
+}
+
+.vk-badge-purple-lg-r {
+  @apply bg-purple-700 text-purple-300 text-lg font-medium  px-2.5 py-0.5 rounded-full dark:bg-purple-700 dark:text-purple-300;
+}
+
+.vk-badge-lime-lg-r {
+  @apply bg-lime-700 text-lime-300 text-lg font-medium  px-2.5 py-0.5 rounded-full dark:bg-lime-700 dark:text-lime-300;
 }
